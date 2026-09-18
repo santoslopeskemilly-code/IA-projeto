@@ -118,4 +118,9 @@ function mostraResultado(){
     caixaAlternativas.textContent = ""; 
 }
 
-mostraPergunta();
+function aleatorio (lista) {
+    const posicao = Mathfloor(Matradom()*lista.length);
+    return lista[posicao];
+}
+
+
