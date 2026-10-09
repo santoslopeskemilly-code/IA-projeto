@@ -19,6 +19,8 @@ const perguntas = [
             {
                 texto: "Isso é maravilhoso!",
                 afirmacao: "afirmacao"
+                "quis saber como usar a IA no seu dia a dia"
+                "foi atras de videos, artigos e mais informaçoes sobre como utilizar essa tecnologia"
             }           
             
         ]
@@ -27,12 +29,14 @@ const perguntas = [
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
+                texto:"utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes  o trabalho e explique numa linguagem que facilite o entendimento",
                 afirmacao:"afirmacao"
+                "Crucial é a capacidade da IA de entender o contexto da pesquisa, aplicar critérios de relevância e filtrar informações irrel."
             },
-            {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+            { co
+                texto: "Escrever o trabalho base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao:"afirmacao"
+                "Com base nas conversas com meus colegas, em pesquisas na internet e em meus próprios conhecimentos sobre o tema, desenvolvi este trabalho"
             }
         ]
     },
@@ -42,10 +46,12 @@ const perguntas = [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
                 afirmacao:"afirmacao"
+                "A transição para um mercado de trabalho altamente automatizado exige políticas públicas robustas e investimentos em requalificação profissional para garantir que o avanço tecnológico não resulte em exclusão social e desemprego em massa."
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao:"afirmacao"
+                "A Inteligência Artificial (IA) atua como uma ferramenta de ampliação do trabalho humano, automatizando rotinas repetitivas para liberar tempo e energia para atividades que exigem criatividade, empatia e pensamento crítico."
             }
             
         ]
@@ -56,10 +62,12 @@ const perguntas = [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
                 afirmacao:"afirmacao"
+                "Criar uma imagem utilizando uma plataforma de design como o Paint é um método simples e acessível para dar vida a ideias visuais."
             },
             {
                 texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
                 afirmacao:"afirmacao"
+                "Um gerador de imagem de IA transforma uma descrição em texto (chamada de prompt) em uma ilustração, foto ou arte visual inédita."
             }
             
         ]
@@ -70,6 +78,8 @@ const perguntas = [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
                 afirmacao:"afirmacao"
+             "O verdadeiro poder da tecnologia se consolida quando aliado à capacidade crítica e à sensibilidade do olhar humano."
+"
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
@@ -119,7 +129,7 @@ function mostraResultado(){
 }
 
 function aleatorio (lista) {
-    const posicao = Mathfloor(Matradom()*lista.length);
+    const posicao = Mathfloor(Math.random)()*lista.length);
     return lista[posicao];
 }
 
