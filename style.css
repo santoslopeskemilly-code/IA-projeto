@@ -10,6 +10,7 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-familly: 'inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +38,15 @@ button {
     transition: background-color 0.3s;
 }
 
+.caixa-alternativas{
+    display: flex
+    flex-direction: column;
+    gap: 10px;
+}
+
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+.caixa-resultado.mostrar{
+    display:block;
